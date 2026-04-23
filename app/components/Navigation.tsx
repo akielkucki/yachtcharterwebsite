@@ -54,7 +54,7 @@ export default function Navigation() {
           aria-label={`${BRAND.name} & Co. - Home`}
         >
           <span className="font-serif text-[22px] md:text-[26px] font-light tracking-[0.02em] leading-none">
-            ${BRAND.name}
+            {BRAND.name}
           </span>
           <span className="font-serif text-[22px] md:text-[26px] font-light leading-none text-gold">
             &amp;
