@@ -27,7 +27,7 @@ export default function Hero() {
   return (
     <section
       id="top"
-      className="relative h-[100svh] min-h-[620px] w-full overflow-hidden bg-navy-deep"
+      className="relative h-[100svh] min-h-[620px] max-w-full overflow-hidden bg-navy-deep"
     >
       {/* Poster image (fallback + pre-video) */}
       <div
@@ -63,9 +63,9 @@ export default function Hero() {
       </video>
 
       {/* Cinematic overlays */}
-      <div className="absolute inset-0 vignette-hero" aria-hidden="true" />
+      <div className="absolute inset-0 max-w-full vignette-hero" aria-hidden="true" />
       <div
-        className="absolute inset-0 bg-navy-deep/25"
+        className="absolute inset-0 max-w-full bg-navy-deep/25"
         aria-hidden="true"
       />
       <div className="noise" aria-hidden="true" />

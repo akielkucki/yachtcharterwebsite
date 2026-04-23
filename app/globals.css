@@ -237,3 +237,6 @@ body {
 .btn-ghost:hover::before {
   transform: translateY(0);
 }
+body,html {
+  overflow-x: hidden;
+}
